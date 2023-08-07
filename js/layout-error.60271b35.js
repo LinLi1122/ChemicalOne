@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["layout-error"],{c0ff:function(e,n,t){"use strict";t.r(n);var l=function(){var e=this,n=e._self._c;return n("div",{staticClass:"pa-2 pa-md-4 flex-grow-1 align-center justify-center d-flex flex-column"},[n("router-view")],1)},r=[],u=t("2877"),a={},c=Object(u["a"])(a,l,r,!1,null,null,null);n["default"]=c.exports}}]);
+//# sourceMappingURL=layout-error.60271b35.js.map
