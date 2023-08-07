@@ -1,0 +1,18 @@
+set NODE_OPTIONS=--openssl-legacy-provider
+npm run-script build
+
+npm install -g @vue/cli
+vue create hello-world
+
+$ cd hello-world
+$ npm run serve
+
+
+publicPath: process.env.NODE_ENV === 'production'
+module.exports = {
+ publicPath: process.env.NODE_ENV === 'production'? '/HelloWorld/': '/'
+}
+
+vue.config.js
+
+https://escuela-tech.medium.com/deploy-vuejs-application-in-tomcat-b0010c2f8395
